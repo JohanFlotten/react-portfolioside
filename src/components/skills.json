@@ -1,0 +1,23 @@
+[
+    {
+      "title": "Blender",
+      "image": "../blender.png",
+      "text": "Modeling, texturing, Lighting and Shading, Animation"
+    },
+    {
+      "title": "Unity",
+      "image": "../unity.png",
+      "text": "Character movement, Environment building, Prefabs, Animation, Probuilder, C#"
+    },
+    {
+      "title": "Photoshop",
+      "image": "../photoshop.png",
+      "text": "Graphics design, Texture creation, Web design"
+    },
+    {
+      "title": "VS Code",
+      "image": "../vscode.png",
+      "text": "HTML, CSS, JavaScript, Python, C#"
+    }
+    
+  ]

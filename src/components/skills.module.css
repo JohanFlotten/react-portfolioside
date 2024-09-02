@@ -1,0 +1,34 @@
+.programs {
+    width: 150px;
+    background-color: rgba(255, 192, 203, 0);
+    text-align: center;
+    color:rgb(243, 243, 243);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .programimg {
+    width: 100px;
+    margin-bottom:15px;
+    
+  }
+
+  .container {
+    background-color: rgba(14, 14, 237, 0);
+    width: 60%;
+    height: 35vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: 5vh;
+    overflow: hidden;
+
+  }
+
+  .iconTitle {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
