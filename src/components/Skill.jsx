@@ -4,7 +4,7 @@ export default function Skill () {
     return (
       <>
       <div id="skill">
-        <h2 id="title">PROGRAMS & SKILL</h2>
+        <h2 className="skills" id="title">PROGRAMS & SKILL</h2>
         <Skillicon/>
       </div>
       </>

@@ -28,26 +28,71 @@ body {
 
 /* CSS RESET */
 
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
 
 #header-container {
-  width: 100%;
-  height: 8vh;
-  background-color: rgb(41, 41, 41);
   display: flex;
-  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1700px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 #jf-logo {
-  width: 2.7vw;
-  height: 4.5vh;
-  margin-left: 50px;
-  margin-top:17px;
+  width: 45px;
+  height: auto;
+  transition: transform 0.3s ease;
 }
 
+#jf-logo:hover {
+  transform: scale(1.1);
+}
+
+.nav .navbar {
+  display: flex;
+  gap: 2vw;
+}
+
+.nav a {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  padding-bottom: 8px;
+  transition: color 0.15s ease;
+}
+
+.nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #f4a261;
+  transition: width 0.15s ease-out;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a:hover {
+  color: #f4a261;
+}
 #home {
   background-color: rgb(69, 69, 69);
   width: 100%;
-  height:  100vh;
+  height:  92vh;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
@@ -88,6 +133,7 @@ body {
   max-width: 500px;
   height: 95vh;
   text-align: left;
+  overflow: hidden;
 }
 
 #about-top {
@@ -263,7 +309,14 @@ body {
 }
 
 
-@media (min-width: 1400px) {
+@media (max-width: 800px) {
+  .nav {
+    display:none;
+  }
+}
+
+@media (max-width: 1450px) {
+
 
 }
 

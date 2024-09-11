@@ -1,0 +1,63 @@
+  .iconbutton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .icon {
+    font-size: 2rem;
+    color: #fafafa;
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  
+  .mobileNav {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+  }
+  
+  .mobileNav a {
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .mobileNav a:hover {
+    color: #f4a261; 
+  }
+  
+  .closeButton {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+  
+  .closeIcon {
+    font-size: 2.5rem;
+    color: #fff;
+  }
+
+  @media (min-width: 801px) {
+    .iconbutton {
+      display:none;
+    }
+  }
