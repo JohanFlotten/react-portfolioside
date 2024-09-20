@@ -7,11 +7,9 @@ function App() {
 
   return (
     <>
-    <body> 
       <Headerjf/>
       <Main/>
       <Footer/>
-    </body>
     </>
   )
 }
