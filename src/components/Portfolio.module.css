@@ -1,0 +1,12 @@
+
+.imgbox {
+    margin-top: 50px;
+    /* background-color: red; */
+    width: 70%;
+    height: 80vh;
+    display: flex;
+}
+
+.pokedex {
+    height: 25vh;
+}

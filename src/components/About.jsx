@@ -14,25 +14,7 @@ function About () {
             </div>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-            cupiditate sapiente adipisci libero repellat quas dolorum enim,
-            provident quisquam officiis nemo placeat possimus optio sit omnis
-            tenetur praesentium commodi totam hic ipsam aliquam. Soluta harum
-            praesentium, blanditiis a consequatur beatae quae doloribus!
-            Corrupti illo expedita, quis sunt natus commodi non. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Maiores cupiditate
-            sapiente adipisci libero repellat quas dolorum enim, provident
-            quisquam officiis nemo placeat possimus optio sit omnis tenetur
-            praesentium commodi totam hic ipsam aliquam. Soluta harum
-            praesentium, blanditiis a consequatur beatae quae doloribus!
-            Corrupti illo expedita, quis sunt natus commodi non. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Maiores cupiditate
-            sapiente adipisci libero repellat quas dolorum enim, provident
-            quisquam officiis nemo placeat possimus optio sit omnis tenetur
-            praesentium commodi totam hic ipsam aliquam. Soluta harum
-            praesentium, blanditiis a consequatur beatae quae doloribus!
-            Corrupti illo expedita, quis sunt natus commodi non. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Maiores cupiditate
+            Hei. Jeg heter Johan Fløtten. 
           </p>
         </div>
       </div>
